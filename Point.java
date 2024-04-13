@@ -13,6 +13,10 @@ public class Point{
         return Math.hypot(dx, dy);
     }
 
+    public double xDistance(Double x){
+        return Math.abs(this.x-x);
+    }
+
     public double getX(){
         return this.x;
     }
